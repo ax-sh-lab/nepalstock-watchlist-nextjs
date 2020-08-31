@@ -6,7 +6,7 @@
 
 const GoogleSheetsProvider = {
 	id: "google_sheets",
-	name: "Sheets",
+	name: "Google Sheets",
 	type: "oauth",
 	version: "2.0",
 	scope:
