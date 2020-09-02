@@ -75,7 +75,7 @@ const options = {
 		 * @return {object}              Session that will be returned to the client
 		 */
 		session: async (session, user, sessionToken) => {
-			// session.auth = user.auth; // Add property to session
+			// session.auth = user.auth; // Add property to session. it leaks the accesstoken tto the client
 			// sessionToken.auth = user.auth;
 			// console.log("sessionToken", sessionToken);
 
